@@ -1,0 +1,26 @@
+<!doctype html><!--[if lt IE 7]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-lt-ie8 a-lt-ie7 a-ie6" data-19ax5a9jf="dingo"><![endif]--><!--[if IE 7]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-lt-ie8 a-ie7" data-19ax5a9jf="dingo"><![endif]--><!--[if IE 8]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8" data-19ax5a9jf="dingo"><![endif]--><!--[if IE 9]><html class="a-no-js a-lt-ie10 a-ie9" data-19ax5a9jf="dingo"><![endif]--><!--[if !IE]><!--><html class="a-no-js" data-19ax5a9jf="dingo"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit" />
+<script type="text/javascript">var ue_t0=ue_t0||+new Date();</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8">
+<title>联系我 宫亭的简历</title>
+</head>
+<body style="width:50%;">
+    <h1>请留下您的联系方式（最好能在说明里留下您的电话）</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            填写的内容不符合要求。如果服务器对您提无理要求，请直接发邮件（gting405@163.com）给我。
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
